@@ -1,0 +1,82 @@
+body {
+    margin: 50px;
+    padding: 150px;
+    background-image: url('1bg.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+ul {
+    max-width: 325px;
+    list-style: none;
+}
+
+li {
+    max-width: 325px;
+    display: flow-root;
+    margin-bottom: 5px;
+    
+    
+}
+
+.edit {
+    background: rgba(16, 38, 236, 0.815);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-left: 5px;
+}
+.delete {
+    background: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    
+}
+
+
+button {
+    background: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #ff0000;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#taskInput {
+    margin-right: 10px;
+}
